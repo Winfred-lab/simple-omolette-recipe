@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+
+
+.section1-content{
+    margin: 20px;
+}
+#omelette {
+    padding: 10px;
+    border-radius: 40px;  
+    width: 100%; 
+}
+
+.section1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.section1 p{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    line-height: 1.9;
+}
+
+
+.section2{
+    margin: 45px
+}
+.section2{
+    background-color: rgb(241, 227, 253);
+    min-height: 10vh;
+    padding: 0;
+    margin: 30px;
+    border-radius: 20px;
+}
+.section2-content{
+    padding: 40px;
+    margin: 10px;
+    line-height: 1.9;
+}
+.section2-content h2{
+    color: rgb(151, 3, 48);
+}
+.section2-content ul {
+    margin-left: 30px;
+}
+
+
+.section3-content{
+    margin: 45px;
+}
+.section3-content h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.section3-content ul{
+    margin-left: 25px;
+    line-height: 1.9;
+}
+
+
+hr{
+    margin: 30px;
+    width: auto;
+}
+
+.section4{
+    margin: 5px 60px;
+    line-height: 1.9;
+    font-size: 30px;
+}
+.section4-content h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+
+.section5{
+    margin: 45px
+}
+.section5-content h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.section5-content p{
+    padding-bottom: 50px;
+}
+table{
+    margin: 10px 90px;
+    width: 70%; 
+}
+
+table, th, td {
+    border: none;
+}
+
+.right{
+    color: brown; 
+    width: 50%;  
+}
+.attribute{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.attribution{
+    text-align: center;
+    padding: 20px 0px 40px;
+    font-size: 0.6em;
+}
+.attribution a{
+    font-size: 1em;
+}
+.attribution a :hover{
+    color: brown;
+}
+
+@media (max-width: 480px) {
+    * {
+        padding: 0px;
+        margin: 0;
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+    }
+    .section1-content{
+        margin: 0px;
+    }
+    #omelette {
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;  
+        width: 100%;          
+    }
+    .section1 h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .section1 p{
+        font-size: 20px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        line-height: 1.9;
+    }
+}
